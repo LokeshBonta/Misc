@@ -9,8 +9,6 @@ typedef struct matsize{
 
 void MatAdd(int  **Input1, int **Input2, int** Output, _tSize MatSize);
 void MatSub(int **Input1, int **Input2, int** Output, _tSize MatSize);
-
-
 void PrintMatrix(int **Input,_tSize matSize);
 
 

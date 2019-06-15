@@ -1,10 +1,10 @@
 #include "matrix.hpp"
 
 //template <typename T>
-void MatAdd(int **Input1, int **Input2, int** Output, _tSize MatSize)
+void MatSub(int **Input1, int **Input2, int** Output, _tSize MatSize)
 {
     #if DEBUG
-    std::cout << "Entered MatAdd Funciton" << std::endl;
+    std::cout << "Entered MatSub Funciton" << std::endl;
     #endif
     
     int i, j;
